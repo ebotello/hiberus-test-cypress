@@ -21,4 +21,4 @@ open an other terminal
  ## Screenshots
 sectionpage Screenshot Example
 
-![App Screenshot](https://github.com/ebotello/hiberus-test-playwright/blob/master/sectionPage.png?raw=true)
+![App Screenshot](https://github.com/ebotello/hiberus-test-cypress/blob/master/seccion.png?raw=true)
