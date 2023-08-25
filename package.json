@@ -1,0 +1,35 @@
+{
+  "name": "hiberus-technical-test",
+  "version": "1.0.0",
+  "description": "This is a technical for hiberus",
+  "scripts": {
+    "tests": "npx cypress open",
+    "db": "json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebotello/hiberus-test-cypress.git"
+  },
+  "keywords": [
+    "playwright",
+    "web test automation"
+  ],
+  "author": "Eilyn Botello <botelloeilyn@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cypress-dotenv": "^2.0.0",
+    "dotenv": "^16.3.1",
+    "fs": "^0.0.1-security",
+    "json": "^11.0.0",
+    "node-fs": "^0.1.7",
+    "openai": "^4.2.0",
+    "prettier": "^2.8.3",
+    "server": "^1.0.38"
+  },
+  "devDependencies": {
+    "chai": "^4.3.8",
+    "cypress": "^12.17.4",
+    "json-server": "^0.17.1"
+  }
+}
