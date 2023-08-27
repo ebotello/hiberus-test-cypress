@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "This is a technical for hiberus",
   "scripts": {
-    "tests": "npx cypress open",
+    "tests": "cypress open",
     "db": "json-server --watch db.json"
   },
   "repository": {

@@ -2,7 +2,7 @@ const OpenAI = require("openai");
 
 const sendQuestion = (messages) => {
   const openAI = new OpenAI({
-    apiKey: "sk",
+    apiKey: Cypress.env('OPEN_AI_TOKEN'),
     dangerouslyAllowBrowser: true,
   });
 
