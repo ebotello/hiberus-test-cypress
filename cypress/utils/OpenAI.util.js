@@ -2,7 +2,7 @@ const OpenAI = require("openai");
 
 const sendQuestion = (messages) => {
   const openAI = new OpenAI({
-    apiKey: "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",
+    apiKey: "sk",
     dangerouslyAllowBrowser: true,
   });
 
